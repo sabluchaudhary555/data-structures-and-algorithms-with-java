@@ -1,134 +1,145 @@
-# Data Structures and Algorithms
+# Data Structures and Algorithms with Java 🚀
 
-A comprehensive collection of data structures, algorithms, and coding problem solutions organized for learning and reference.
+A structured learning repository documenting my Java DSA journey — from Core Java fundamentals to Data Structures and Algorithms — built to crack MNC placements.
+
+---
 
 ## 📁 Repository Structure
 
 ```
-data-structures-and-algorithms/
-├── 01-data-structures/      # Core data structure implementations
-├── 02-algorithms/            # Algorithm implementations and patterns
-├── 03-leetcode-solutions/    # LeetCode problem solutions
-├── 04-gfg-solutions/         # GeeksforGeeks problem solutions
-└── .gitignore
+data-structures-and-algorithms-with-java/
+│
+├── 01-core-java/                  # Java fundamentals
+│   ├── basics/                    # Data types, variables, operators
+│   ├── control-flow/              # if/else, loops, break, continue
+│   ├── methods/                   # Static, instance, recursion
+│   ├── arrays-strings/            # 1D/2D arrays, String methods
+│   ├── oop/                       # Class, inheritance, polymorphism
+│   ├── collections/               # ArrayList, HashMap, Stack, Queue
+│   └── exception-handling/        # try-catch, throw, throws
+│
+├── 02-data-structures/            # Core data structure implementations
+│   ├── arrays/
+│   ├── linked-list/
+│   ├── stack/
+│   ├── queue/
+│   ├── trees/
+│   ├── graphs/
+│   └── hashing/
+│
+├── 03-algorithms/                 # Algorithm implementations
+│   ├── sorting/                   # Bubble, Selection, Merge, Quick
+│   ├── searching/                 # Linear, Binary Search
+│   ├── dynamic-programming/       # Classic DP problems
+│   ├── greedy/
+│   └── backtracking/
+│
+├── .gitignore
+└── README.md
 ```
+
+---
 
 ## 📚 Contents
 
-### Data Structures
-Implementation of fundamental and advanced data structures including:
+### 01 — Core Java
+Foundation topics every Java DSA programmer must know:
+- Data types, variables, operators
+- Control flow — if/else, loops, break, continue
+- Methods and recursion
+- Arrays and Strings
+- OOP — Class, Object, Inheritance, Polymorphism, Abstraction, Encapsulation
+- Collections — ArrayList, LinkedList, HashMap, HashSet, Stack, Queue
+- Exception Handling — try-catch, throw, throws
+
+### 02 — Data Structures
+Implementations of fundamental and advanced data structures:
 - Arrays and Strings
 - Linked Lists (Singly, Doubly, Circular)
 - Stacks and Queues
-- Trees (Binary Trees, BST, AVL, etc.)
-- Heaps
-- Hash Tables
+- Trees (Binary Tree, BST, AVL)
 - Graphs
-- Tries
-- And more...
+- Hash Tables
+- Heaps and Tries
 
-### Algorithms
-Implementation of essential algorithms covering:
-- **Sorting**: Quick Sort, Merge Sort, Heap Sort, etc.
-- **Searching**: Binary Search, DFS, BFS, etc.
-- **Dynamic Programming**: Classic DP problems
+### 03 — Algorithms
+Essential algorithms for placements and competitive programming:
+- **Sorting** — Bubble, Selection, Insertion, Merge, Quick, Heap Sort
+- **Searching** — Linear Search, Binary Search
+- **Dynamic Programming** — Classic DP problems
 - **Greedy Algorithms**
 - **Divide and Conquer**
 - **Backtracking**
-- **Graph Algorithms**: Dijkstra, Bellman-Ford, Floyd-Warshall, etc.
+- **Graph Algorithms** — BFS, DFS, Dijkstra, Floyd-Warshall
 
-### Problem Solutions
-- **LeetCode Solutions**: Organized solutions to LeetCode problems
-- **GeeksforGeeks Solutions**: Solutions to GFG practice problems
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Your preferred programming language runtime/compiler
-- IDE or text editor (IntelliJ IDEA recommended based on project structure)
-
-### Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/data-structures-and-algorithms.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd data-structures-and-algorithms
-```
-
-3. Open in your IDE or explore individual files
-
-## 💡 Usage
-
-Each directory contains standalone implementations and solutions:
-
-```bash
-# Navigate to specific topic
-cd 01-data-structures
-
-# Run individual files based on your language
-# Example for Java:
-javac FileName.java
-java FileName
-
-# Example for Python:
-python filename.py
-```
+---
 
 ## 📖 Learning Path
 
 Recommended order for beginners:
-1. Start with **01-data-structures** to understand fundamentals
-2. Move to **02-algorithms** to learn algorithmic techniques
-3. Practice with leetcode and gfg
 
-## 🤝 Contributing
+1. Start with **01-core-java** — build your Java foundation
+2. Move to **02-data-structures** — understand how data is organized
+3. Finish with **03-algorithms** — learn problem-solving techniques
+4. Practice problems on GFG and LeetCode alongside each topic
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 🚀 Getting Started
 
-## 📝 Code Style
+### Prerequisites
+- Java JDK 17 or above
+- IntelliJ IDEA (recommended)
+- Git
 
-- Write clean, readable code
-- Add comments for complex logic
-- Include time and space complexity analysis
-- Follow language-specific conventions
+### Clone the Repository
+```bash
+git clone https://github.com/sabluchaudhary555/data-structures-and-algorithms-with-java.git
+cd data-structures-and-algorithms-with-java
+```
+
+### Run a Java File
+```bash
+# Compile
+javac FileName.java
+
+# Run
+java FileName
+```
+
+---
 
 ## 🎯 Goals
 
-- Build a comprehensive DSA reference
+- Master Core Java for DSA
+- Implement all major data structures from scratch
 - Solve 400+ coding problems
-- Master common interview patterns
-- Contribute to open-source learning
+- Crack MNC placement rounds (TCS, Infosys, Wipro, Amazon)
 
+---
 
 ## 🔗 Useful Resources
 
-- [LeetCode](https://leetcode.com/)
-- [GeeksforGeeks](https://www.geeksforgeeks.org/)
-- [HackerRank](https://www.hackerrank.com/)
-- [Visualgo](https://visualgo.net/) - Algorithm visualizations
-
-<br>
-<br>
-
-**Happy Learning! 🚀**
-
-*Contributions and suggestions are welcome!*
+| Resource | Link |
+|----------|------|
+| GeeksforGeeks | [geeksforgeeks.org](https://www.geeksforgeeks.org/) |
+| LeetCode | [leetcode.com](https://leetcode.com/) |
+| HackerRank | [hackerrank.com](https://www.hackerrank.com/) |
+| Algorithm Visualizer | [visualgo.net](https://visualgo.net/) |
+| Love Babbar DSA Sheet | [450 DSA Sheet](https://450dsa.com/) |
 
 ---
 
-**Maintained by: [Sablu Chaudhary](https://github.com/sabluchaudhary555)** 🔗 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/sablu-chaudhary555/) | [GitHub](https://github.com/sabluchaudhary555) | [SSoft.in](https://ssoft.in/)
+**Happy Learning! 💪**
 
 ---
-**Made with ❤️ for the Open Source Community**
+
+**Maintained by: [Sablu Chaudhary](https://github.com/sabluchaudhary555)**
+🔗 Connect: [LinkedIn](https://www.linkedin.com/in/sablu-chaudhary555/) | [GitHub](https://github.com/sabluchaudhary555) | [SSoft.in](https://ssoft.in/)
+
+---
+*Made with ❤️ for the Open Source Community*
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Linked List
