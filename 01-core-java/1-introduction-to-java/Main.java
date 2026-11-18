@@ -7,7 +7,7 @@ public class Main {                    // public class (file name = Main.java)
     // void   → returns nothing
     // String[] args → command line arguments array
     static void main(String[] args) {
-        System.out.println("Hello World");   // prints to console + new line
+        System.out.println("Hello");   // prints to console + new line
     }
 }
 /*
